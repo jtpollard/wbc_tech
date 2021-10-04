@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Add this profile to enable printing to church photocopier on Apple devices. In case of queries please contact Jamie (jamie.pollard@widcombe.org)</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AirPrint</key>
+			<array>
+				<dict>
+					<key>ForceTLS</key>
+					<integer>0</integer>
+					<key>IPAddress</key>
+					<string>10.128.0.232</string>
+					<key>ResourcePath</key>
+					<string>ipp/print</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures AirPrint settings</string>
+			<key>PayloadDisplayName</key>
+			<string>AirPrint</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.airprint.E53951D3-5E7B-435A-99E8-8DD369D20F81</string>
+			<key>PayloadType</key>
+			<string>com.apple.airprint</string>
+			<key>PayloadUUID</key>
+			<string>E53951D3-5E7B-435A-99E8-8DD369D20F81</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables printing on WBC Olivetti Photocopier in the main church office.</string>
+	<key>PayloadDisplayName</key>
+	<string>WBC Photocopier</string>
+	<key>PayloadIdentifier</key>
+	<string>wbc-photocopier-v01</string>
+	<key>PayloadOrganization</key>
+	<string>Widcombe Baptist Church</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E0ADCAD0-FC84-45A8-AEDB-FB4218E38B77</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
